@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo step
-         run: echo "Hello this is a reusable workflow, welcome"
+       run: echo "Hello this is a reusable workflow, welcome"
