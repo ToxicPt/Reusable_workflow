@@ -7,7 +7,7 @@ on:
 
 jobs:
   Job:
-  runs-on: ubuntu-latest
-  steps:
-  - name: echo step
-  run: echo "Hello this is a reusable workflow"
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo step
+        run: echo "Hello this is a reusable workflow"
